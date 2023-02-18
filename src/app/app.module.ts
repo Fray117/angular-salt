@@ -6,13 +6,19 @@ import { ContainerComponent } from './container/container.component'
 import { NavbarComponent } from './navbar/navbar.component'
 import { FooterComponent } from './footer/footer.component'
 import { VideosListComponent } from './videos-list/videos-list.component'
+import { ActivityListComponent } from './activity-list/activity-list.component'
+import { PeoplesListComponent } from './peoples-list/peoples-list.component'
+import { DocumentsListComponent } from './documents-list/documents-list.component'
 
 @NgModule({
 	declarations: [
 		ContainerComponent,
 		NavbarComponent,
 		FooterComponent,
-		VideosListComponent
+		VideosListComponent,
+		ActivityListComponent,
+		PeoplesListComponent,
+		DocumentsListComponent
 	],
 	imports: [
 		BrowserModule,
