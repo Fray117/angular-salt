@@ -1,0 +1,37 @@
+{
+	"status": "OK",
+	"code": 200,
+	"total": 5,
+	"data": [
+		{
+			"id": 1,
+			"name": "At facilis saepe eum ut ut.",
+			"views": 41890,
+			"image": "https://placewaifu.com/image"
+		},
+		{
+			"id": 2,
+			"name": "Aut aut et dolor occaecati.",
+			"views": 51415,
+			"image": "https://placewaifu.com/image"
+		},
+		{
+			"id": 3,
+			"name": "Ipsum et et non tempore.",
+			"views": 62532,
+			"image": "https://placewaifu.com/image"
+		},
+		{
+			"id": 4,
+			"name": "Sed et deleniti veniam.",
+			"views": 631454,
+			"image": "https://placewaifu.com/image"
+		},
+		{
+			"id": 5,
+			"name": "Voluptates et ut vitae aut.",
+			"views": 51415,
+			"image": "https://placewaifu.com/image"
+		}
+	]
+}
