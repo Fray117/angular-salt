@@ -11,7 +11,7 @@ export class VideosListComponent implements OnInit {
 	constructor(private http: HttpClient) { }
 
 	ngOnInit() {
-		this.http.get('https://fakerapi.it/api/v1/products?_quantity=5&_taxes=12&_categories_type=uuid').subscribe(response => {
+		this.http.get('https://raw.githubusercontent.com/Fray117/angular-salt/main/src/data/videos-list.json').subscribe(response => {
 			this.data = response
 		})
 	}
