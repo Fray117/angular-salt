@@ -1,0 +1,37 @@
+{
+	"status": "OK",
+	"code": 200,
+	"total": 5,
+	"data": [
+		{
+			"id": 1,
+			"name": "John Doe",
+			"activity": "commented",
+			"date": "3 seconds ago"
+		},
+		{
+			"id": 2,
+			"name": "Samantha Joko",
+			"activity": "uploaded a video",
+			"date": "couple minutes ago"
+		},
+		{
+			"id": 3,
+			"name": "Rahman Sumanto",
+			"activity": "voted on a post",
+			"date": "2 hours ago"
+		},
+		{
+			"id": 4,
+			"name": "Gayus Zulfikri",
+			"activity": "deleted a viewer comment",
+			"date": "yesterday"
+		},
+		{
+			"id": 5,
+			"name": "Xavier Bueno",
+			"activity": "account locked for several months",
+			"date": "a week ago"
+		}
+	]
+}
