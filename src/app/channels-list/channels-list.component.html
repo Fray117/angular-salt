@@ -4,7 +4,7 @@
 		<span class="text-sm">Explore more</span>
 	</div>
 	<div class="grid grid-cols-1 gap-y-5 gap-x-3 sm:grid-cols-2 xl:gap-x-4 text-primary text-xs font-medium">
-		<div class="bg-secondary h-48 w-full flex items-end py-2 px-4" *ngFor="let item of data.data"
+		<div class="bg-cover h-48 w-full flex items-end py-2 px-4" *ngFor="let item of data.data"
 			[ngStyle]="{ 'background-image': 'url(' + item.image + ')' }">
 			<span class="rounded-full py-2 px-4 bg-secondary">{{item.name}}</span>
 		</div>
