@@ -11,7 +11,7 @@ export class PeoplesListComponent implements OnInit {
 	constructor(private http: HttpClient) { }
 
 	ngOnInit() {
-		this.http.get('https://raw.githubusercontent.com/Fray117/angular-salt/main/src/data/videos-list.json').subscribe(response => {
+		this.http.get('https://raw.githubusercontent.com/Fray117/angular-salt/main/src/data/peoples-list.json').subscribe(response => {
 			this.data = response
 		})
 	}
