@@ -5,12 +5,12 @@
 	</div>
 	<div
 		class="grid grid-cols-1 gap-y-5 gap-x-3 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-4 text-primary text-xs font-medium">
-		<div class="h-48 w-full" *ngFor="let item of data.data; let isFirst = first"
+		<div class="h-48 bg-cover w-full" *ngFor="let item of data.data; let isFirst = first"
+			[ngStyle]="{ 'background-image': 'url(' + item.image + ')' }"
 			[ngClass]="{ 'sm:col-span-2 sm:row-span-2 sm:h-[25.25rem]': isFirst }">
-			<img class="absolute object-cover" [src]="item.image" alt="">
 			<div class="flex justify-between w-full h-full items-end pb-2 px-4">
 				<span class="bg-secondary py-2 px-4 rounded-full">{{item.name}}</span>
-				<span class="bg-secondary py-2 px-4 rounded-full">{{item.views}} views</span>
+				<span class="bg-secondary py-2 px-4 rounded-full">{{item.views}}</span>
 			</div>
 		</div>
 		<div class="h-48 border-2 border-secondary w-full text-secondary flex justify-center items-center space-x-2">
