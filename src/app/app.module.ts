@@ -9,6 +9,7 @@ import { VideosListComponent } from './videos-list/videos-list.component'
 import { ActivityListComponent } from './activity-list/activity-list.component'
 import { PeoplesListComponent } from './peoples-list/peoples-list.component'
 import { DocumentsListComponent } from './documents-list/documents-list.component'
+import { ChannelsListComponent } from './channels-list/channels-list.component'
 
 @NgModule({
 	declarations: [
@@ -18,7 +19,8 @@ import { DocumentsListComponent } from './documents-list/documents-list.componen
 		VideosListComponent,
 		ActivityListComponent,
 		PeoplesListComponent,
-		DocumentsListComponent
+		DocumentsListComponent,
+		ChannelsListComponent
 	],
 	imports: [
 		BrowserModule,
