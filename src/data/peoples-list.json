@@ -1,0 +1,37 @@
+{
+	"status": "OK",
+	"code": 200,
+	"total": 5,
+	"data": [
+		{
+			"id": 1,
+			"name": "Abu Khalid",
+			"views": 418,
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/megumin1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Candra Gunawan",
+			"views": 514,
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/aoba.png"
+		},
+		{
+			"id": 3,
+			"name": "Mangunkusumo",
+			"views": 625,
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/cat.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Della Adelia",
+			"views": 631,
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/nicomaki.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Ferguso No",
+			"views": 514,
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/shiro.jpg"
+		}
+	]
+}
