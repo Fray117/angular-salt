@@ -7,31 +7,31 @@
 			"id": 1,
 			"name": "John Doe",
 			"views": 418,
-			"image": "https://placewaifu.com/image"
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/2kizuna.jpg"
 		},
 		{
 			"id": 2,
 			"name": "Samantha Joko",
 			"views": 514,
-			"image": "https://placewaifu.com/image"
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/megumin2.jpg"
 		},
 		{
 			"id": 3,
 			"name": "Rahman Sumanto",
 			"views": 625,
-			"image": "https://placewaifu.com/image"
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/milk.jpg"
 		},
 		{
 			"id": 4,
 			"name": "Gayus Zulfikri",
 			"views": 631,
-			"image": "https://placewaifu.com/image"
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/miku.jpg"
 		},
 		{
 			"id": 5,
 			"name": "Xavier Bueno",
 			"views": 514,
-			"image": "https://placewaifu.com/image"
+			"image": "https://github.com/Xetera/placewaifu/raw/master/assets/images/shiro.jpg"
 		}
 	]
 }
